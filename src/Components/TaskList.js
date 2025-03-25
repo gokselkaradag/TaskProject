@@ -1,10 +1,10 @@
 import TaskShow from "./TaskShow";
 
-function TaskList({tasks}) {
+function TaskList({tasks, onDelete, onUpdate}) {
     return ( <div className="task-List">
         {tasks.map((task,index)=>{
             return(
-                <TaskShow key={index} task={task}/>
+                <TaskShow key={index} task={task} onDelete={onDelete} onUpdate={onUpdate}/>
             )
         })}
     </div> );

@@ -6,6 +6,9 @@
 .task-create{
     width: 450px;
 }
+.task-edit{
+    width: 100%;
+}
 .task-form{
     display: flex;
     flex-direction: column;
@@ -26,6 +29,9 @@
     color: white;
     border-radius: 10px;
     font-size: 20px;
+}
+.update-button{
+    background-color: purple;
 }
 .task-List{
     display: flex;
